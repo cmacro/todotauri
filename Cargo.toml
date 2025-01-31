@@ -1,0 +1,12 @@
+[package]
+name = "todo-tauri"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+leptos = { version = "0.7.5", features = ["csr"]}
+
+[build]
+target = "index.html"
+dist = "dist"
+
